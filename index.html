@@ -250,13 +250,12 @@
             $('#min_menu_toggle').on('click',function(){
                 if($(this).hasClass('active')){
                     $(this).removeClass('active')
-                    $('#navWrap').animate({left:-350},50)
+                    $('#navWrap').animate({left:-305},50)
                 }else{
                     $(this).addClass('active')
                     $('#navWrap').animate({left:0},50)
                 }
             })
-
             //搜索
             $('.search_query').hover(function(){
                 $(this).siblings('.tips').show().animate({opacity:1},100)
